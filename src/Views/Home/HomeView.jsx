@@ -1,9 +1,9 @@
-import AppHeader from "../../components/AppHeader"
+import Header from "../../components/Header/Header"
 
 function HomeView () {
     return (
         <>
-            <AppHeader />
+            <Header/>
         </>
     )
 }

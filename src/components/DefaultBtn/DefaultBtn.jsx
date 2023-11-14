@@ -1,9 +1,7 @@
-function DefaultBtn ( { text } ) {
+export default function DefaultBtn ( { text } ) {
     return (
         <>
             <button> {text} </button>
         </>    
     )
 }
-
-export default DefaultBtn

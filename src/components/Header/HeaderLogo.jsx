@@ -1,9 +1,9 @@
-import Logo from "../assets/logo.svg"
+import logo from "../../assets/logo.svg"
 
 function HeaderLogo () {
     return (
     <>
-        <img src={Logo} alt="" />
+        <img src={logo} alt="" />
     </>
     )
 }
