@@ -27,12 +27,19 @@
 
 }
 
-.header > a:hover {
+.header_link > a:hover {
+    text-decoration: none;
     color: #F86F03;
-    ;
+
 }
 
-.header_hire_me_btn {
-    background-color: #170550;
-    color: white;
+.header > button {
+    width: 150px;
+    height: 40px;
+    background-color: #FFFFFF;
+    color: #461959;
+    border-radius: 20px;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
 }
