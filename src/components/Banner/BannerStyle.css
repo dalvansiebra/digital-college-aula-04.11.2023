@@ -6,26 +6,55 @@
     display: flex;
     flex-direction: row;
     font-family: 'Exo 2', sans-serif;
+    align-items: center;
+    text-align: center;
 }
 
 .banner > img {
     width: 50px;
     height: 50px;
+    background-color: #31065A;
 }
 
 .banner_text {
     width: 50%;
-    background-color: aqua;
-    padding: 30px;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner_text > * {
+    padding-left: 70px;
+}
+
+.text {
+    /* background-color: bisque; */
+
+}
+
+.social_network_banner {
+    /* background-color: blue; */
 }
 
 .banner_image {
     width: 50%;
-    height: 200px;
-    background-color: white;
+    /* background-color: gray; */
+}
+
+.banner_image > img {
+
 }
 
 .orange_text {
     color: #F86F03;
 
+}
+
+.banner_btn > * {
+    width: 200px;
+    height: 41px;
+    color: #FFFFFF;
+    background-color: #F86F03;
+    border-radius: 20px;
 }

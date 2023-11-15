@@ -8,7 +8,9 @@ export default function Banner () {
         <>
             <div className="banner">
                 <BannerText/>
-                <DefaultImg className="banner_image" src={BannerImage} alt="Banner Image" />
+                <section className="banner_image">
+                <DefaultImg src={BannerImage} alt="Banner Image" />
+                </section>
             </div>
         </>    
     )
