@@ -16,10 +16,10 @@ export default function BannerText () {
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos dolorum ullam molestias autem deleniti iure earum!</p>
                 </div>
                 <div className="social_network_banner">
-                    <DefaultImg src={FacebookVector} alt="Logo do Facebook" />
-                    <DefaultImg src={GitHubVector} alt="Logo do GitHub" />
-                    <DefaultImg src={LinkedInVector} alt="Logo do LinkedIn" />
-                    <DefaultImg src={InstagramVector} alt="Logo do Instagram" />
+                    <DefaultImg className="social_img" src={FacebookVector} alt="Logo do Facebook" />
+                    <DefaultImg className="social_img" src={GitHubVector} alt="Logo do GitHub" />
+                    <DefaultImg className="social_img" src={LinkedInVector} alt="Logo do LinkedIn" />
+                    <DefaultImg className="social_img" src={InstagramVector} alt="Logo do Instagram" />
                 </div>
                 <div className="banner_btn">
                     <DefaultBtn text="Download CV"/>
