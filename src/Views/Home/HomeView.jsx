@@ -1,5 +1,6 @@
-import Banner from "../../components/Banner/Banner"
-import Header from "../../components/Header/Header"
+import Banner from "../../components/AppBanner/Banner"
+import Header from "../../components/AppHeader/Header"
+
 
 function HomeView () {
     return (

@@ -1,5 +1,5 @@
 import BannerText from "./BannerText";
-import "../Banner/BannerStyle.css"
+import "../AppBanner/BannerStyle.css"
 import DefaultImg from "../DefaultImg/DefaultImg";
 import BannerImage from "../../assets/BannerImage.svg"
 

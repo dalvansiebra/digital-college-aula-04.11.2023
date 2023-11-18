@@ -1,7 +1,7 @@
 import DefaultImg from "../DefaultImg/DefaultImg"
 import DefaultLink from "../DefaultLink/DefaultLink"
 import DefaultBtn from "../DefaultBtn/DefaultBtn"
-import "../Header/HeaderStyle.css"
+import "../AppHeader/HeaderStyle.css"
 import Logo from "../../assets/logo.svg"
 
 
