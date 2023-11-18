@@ -1,7 +1,7 @@
-export default function DefaultBtn ( { text } ) {
+export default function DefaultBtn ( { type , style , text } ) {
     return (
         <>
-            <button> {text} </button>
-        </>    
+            <button type={type} className={style}> {text} </button>
+        </>
     )
 }

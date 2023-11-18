@@ -4,9 +4,10 @@ import LinkedInVector from "../../assets/LinkedInVector.svg"
 import InstagramVector from "../../assets/InstagramVector.svg"
 import DefaultImg from "../DefaultImg/DefaultImg"
 import DefaultBtn from "../DefaultBtn/DefaultBtn"
+import DefaultLink from "../DefaultLink/DefaultLink"
 
-export default function BannerText () {
-    return(
+export default function BannerText() {
+    return (
         <>
             <section className="banner_text">
                 <div className="text">
@@ -16,15 +17,15 @@ export default function BannerText () {
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos dolorum ullam molestias autem deleniti iure earum!</p>
                 </div>
                 <div className="social_network_banner">
-                    <DefaultImg className="social_img" src={FacebookVector} alt="Logo do Facebook" />
-                    <DefaultImg className="social_img" src={GitHubVector} alt="Logo do GitHub" />
-                    <DefaultImg className="social_img" src={LinkedInVector} alt="Logo do LinkedIn" />
-                    <DefaultImg className="social_img" src={InstagramVector} alt="Logo do Instagram" />
+                    <DefaultLink href="#" text={<><img src={FacebookVector} alt="Logo do Facebook" /></>} />
+                    <DefaultLink href="#" text={<><img src={GitHubVector} alt="Logo do GitHub" /></>} />
+                    <DefaultLink href="#" text={<><img src={LinkedInVector} alt="Logo do LinkedIn" /></>} />
+                    <DefaultLink href="#" text={<><img src={InstagramVector} alt="Logo do Instagram" /></>} />
                 </div>
                 <div className="banner_btn">
-                    <DefaultBtn text="Download CV"/>
+                    <DefaultBtn type="submit" text="Download CV" />
                 </div>
             </section>
-        </>    
+        </>
     )
 }
