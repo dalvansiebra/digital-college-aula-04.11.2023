@@ -1,7 +1,7 @@
-export default function DefaultLink ({ href, text }) {
+export default function DefaultLink ({ href, text, target }) {
     return (
     <>
-        <a href={href}>{text}</a>
+        <a href={href} target={target}>{text}</a>
     </>    
     )
 }

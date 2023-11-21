@@ -1,0 +1,13 @@
+.about_me {
+    background-color: #170550;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about_me_content {
+    display: flex;
+    padding: 30px;
+}
+

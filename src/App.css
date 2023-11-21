@@ -6,3 +6,7 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
+.title_page {
+    border-bottom: 1px solid #FFF;
+}
