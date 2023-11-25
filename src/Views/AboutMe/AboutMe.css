@@ -1,0 +1,42 @@
+.about_me {
+    background-color: #170550;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+.about_me_content {
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    gap: 150px;
+    padding: 70px;
+}
+
+.about_me_text {
+    width: 500px;
+    /* background-color: bisque; */
+}
+
+.about_me_text > * {
+    margin-bottom: 30px;
+}
+
+.about_me_text > button {
+    width: 150px;
+    height: 40px;
+    background-color: #FFFFFF;
+    color: #461959;
+    border-radius: 20px;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    border: none;
+}
+
+.about_me_text > button:hover {
+    background-color: #F86F03;
+    color: #FFFFFF;
+}

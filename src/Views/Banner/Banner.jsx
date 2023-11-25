@@ -1,6 +1,6 @@
-import BannerText from "./BannerText";
+import BannerText from "../../components/Banner/BannerText";
 import "../AppBanner/BannerStyle.css"
-import DefaultImg from "../DefaultImg/DefaultImg";
+import DefaultImg from "../../components/DefaultImg/DefaultImg";
 import BannerImage from "../../assets/computerdesign.png"
 
 export default function Banner () {

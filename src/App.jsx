@@ -1,4 +1,4 @@
-import HomeView from './Views/Home/HomeView'
+import HomeView from './Home/HomeView'
 import "./App.css"
 
 function App() {

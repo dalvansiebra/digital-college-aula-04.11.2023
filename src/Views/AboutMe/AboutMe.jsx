@@ -1,8 +1,8 @@
-import DefaultImg from "../DefaultImg/DefaultImg";
-import DefaultTitle from "../DefaultTitle/DefaultTitle";
+import DefaultImg from "../../components/DefaultImg/DefaultImg";
+import DefaultTitle from "../../components/DefaultTitle/DefaultTitle";
 import PhotoMe from "../../assets/PhotoMe.svg"
-import AboutMeText from "./AboutMeText";
-import DefaultBtn from "../DefaultBtn/DefaultBtn";
+import AboutMeText from "../../components/AboutMe/AboutMeText";
+import DefaultBtn from "../../components/DefaultBtn/DefaultBtn";
 import "./AboutMe.css"
 
 export default function AboutMe() {
