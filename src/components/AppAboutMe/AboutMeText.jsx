@@ -3,7 +3,7 @@ import DefaultBtn from "../DefaultBtn/DefaultBtn";
 export default function AboutMeText() {
     return (
         <>
-            <div className="">
+            <div className="about_me_text">
                 <h2>Frontend Developer & Graphic Designer</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At reiciendis, quas voluptatum facere quam iusto itaque sapiente dolor provident aspernatur unde, suscipit illum, velit similique animi iste corporis repellendus veritatis minus voluptas. Sunt, eligendi. Praesentium explicabo facere quo ad earum.
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. At reiciendis, quas voluptatum facere quam iusto itaque sapiente dolor provident.

@@ -12,7 +12,7 @@ export default function AboutMe() {
                 <DefaultTitle text="About" oreangetext="Me"/>
                 <div className="about_me_content">
                     <DefaultImg src={PhotoMe} alt="Foto do autor" />
-                    <AboutMeText />
+                    <AboutMeText className="about_me_text" />
                 </div>
             </div>
         </>
