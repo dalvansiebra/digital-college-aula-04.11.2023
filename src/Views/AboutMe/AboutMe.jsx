@@ -1,7 +1,7 @@
 import DefaultImg from "../../components/DefaultImg/DefaultImg";
 import DefaultTitle from "../../components/DefaultTitle/DefaultTitle";
 import PhotoMe from "../../assets/PhotoMe.svg"
-import AboutMeText from "../../components/AboutMe/AboutMeText";
+import AboutMeText from "../../components/AboutMeText/AboutMeText";
 import DefaultBtn from "../../components/DefaultBtn/DefaultBtn";
 import "./AboutMe.css"
 

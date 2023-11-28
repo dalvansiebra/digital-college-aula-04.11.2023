@@ -1,9 +1,7 @@
-import AboutMe from "../Views/AboutMe/AboutMe"
-import Banner from "../Views/Banner/Banner"
 import Header from "../components/Header/Header"
-
-
-
+import Banner from "../Views/Banner/Banner"
+import AboutMe from "../Views/AboutMe/AboutMe"
+import MyServices from "../Views/MyServices/MyServices"
 
 function HomeView () {
     return (
@@ -11,6 +9,7 @@ function HomeView () {
             <Header/>
             <Banner/>
             <AboutMe/>
+            <MyServices/>
         </>
     )
 }

@@ -8,5 +8,6 @@
 }
 
 .title_page {
-    border-bottom: 1px solid #FFF;
+    border-bottom: 2px solid #FFF;
+    padding-bottom: 10px;
 }

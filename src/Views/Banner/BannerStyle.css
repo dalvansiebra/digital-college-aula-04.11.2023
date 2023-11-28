@@ -53,6 +53,10 @@
     padding: 4px;
 }
 
+.social_network_banner > a > img:hover {
+    border: 3px dashed #F86F03;
+}
+
 .banner_image {
     width: 50%;
     /* margin: 0 150px 0 0; */
