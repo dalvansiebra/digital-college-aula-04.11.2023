@@ -1,0 +1,43 @@
+.my_skills {
+    background-color: #170550;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    padding: 30px;
+    height: 100vh;
+}
+
+.table_skills {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+table {
+    background-color: violet;
+    width: 80%;
+}
+
+.my_skills tr {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.my_skills tr > div {
+    background-color: #43366A;
+    width: 50%;
+    height: 10px;
+    border-radius: 20px;
+}
+
+.my_skills tr > div > input {
+    background-color: #F86F03;
+    width: 50%;
+    height: 10px;
+    border-radius: inherit;
+}
