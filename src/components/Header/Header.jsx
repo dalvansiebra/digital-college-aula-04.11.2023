@@ -19,8 +19,8 @@ export default function Header() {
           <DefaultLink to="/about" text="About Me" />
           <DefaultLink to="/services" text="Services" />
           <DefaultLink to="/skills" text="Skills" />
-          <DefaultLink to="#" text="Portfolio" />
-          <DefaultLink to="#" text="Contact" />
+          <DefaultLink to="/portfolio" text="Portfolio" />
+          <DefaultLink to="/contact" text="Contact" />
         </nav> {/*fim div .link */}
         <DefaultBtn onClick={HeaderHireMeBtn} text="Hire Me" />
       </header> {/*fim div .fundo */}

@@ -4,6 +4,8 @@ import AboutMe from "../Views/AboutMe/AboutMe"
 import App from "../App"
 import MyServices from "../Views/MyServices/MyServices"
 import MySkills from "../Views/MySkills/MySkills"
+import Portfolio from "../Views/Portfolio/Portfolio"
+import Contact from "../Views/Contact/Contact"
 
 const router = createBrowserRouter([
     {
@@ -24,6 +26,14 @@ const router = createBrowserRouter([
             {
                 path: '/skills',
                 element: <MySkills />
+            },
+            {
+                path: '/portfolio',
+                element: <Portfolio />
+            },
+            {
+                path: '/contact',
+                element: <Contact />
             }
         ]
     }
