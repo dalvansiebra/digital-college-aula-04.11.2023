@@ -1,7 +1,9 @@
-export default function DefaultLink ({ href, text, target }) {
+import { Link } from "react-router-dom";
+
+export default function DefaultLink ({ to, text , target }) {
     return (
     <>
-        <a href={href} target={target}>{text}</a>
+        <Link to={to} target={target}>{text}</Link>
     </>    
     )
 }

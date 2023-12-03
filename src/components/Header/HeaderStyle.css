@@ -29,7 +29,7 @@
 .header_link > a:hover {
     text-decoration: none;
     color: #F86F03;
-
+    transition: 0.4s;
 }
 
 .header > button {

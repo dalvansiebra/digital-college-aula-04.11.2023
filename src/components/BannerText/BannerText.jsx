@@ -17,10 +17,10 @@ export default function BannerText() {
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos dolorum ullam molestias autem deleniti iure earum!</p>
                 </div>
                 <div className="social_network_banner">
-                    <DefaultLink href="https://www.facebook.com/" target="_blank" text={<><img src={FacebookVector} alt="Logo do Facebook" /></>} />
-                    <DefaultLink href="https://github.com/" target="_blank" text={<><img src={GitHubVector} alt="Logo do GitHub" /></>} />
-                    <DefaultLink href="https://www.linkedin.com/" target="_blank" text={<><img src={LinkedInVector} alt="Logo do LinkedIn" /></>} />
-                    <DefaultLink href="https://www.instagram.com/" target="_blank" text={<><img src={InstagramVector} alt="Logo do Instagram" /></>} />
+                    <DefaultLink to="https://www.facebook.com/" target="_blank" text={<><img src={FacebookVector} alt="Logo do Facebook" /></>} />
+                    <DefaultLink to="https://github.com/" target="_blank" text={<><img src={GitHubVector} alt="Logo do GitHub" /></>} />
+                    <DefaultLink to="https://www.linkedin.com/" target="_blank" text={<><img src={LinkedInVector} alt="Logo do LinkedIn" /></>} />
+                    <DefaultLink to="https://www.instagram.com/" target="_blank" text={<><img src={InstagramVector} alt="Logo do Instagram" /></>} />
                 </div>
                 <div className="banner_btn">
                     <DefaultBtn type="submit" text="Download CV" />

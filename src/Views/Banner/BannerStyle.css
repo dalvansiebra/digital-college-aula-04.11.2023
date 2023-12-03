@@ -4,10 +4,10 @@
     display: flex;
     flex-direction: row;
     font-family: 'Exo 2', sans-serif;
-    align-items: center;
+    align-items: start;
     text-align: center;
-    padding: 60px;
-    height: 100vh;
+    padding: 80px;
+    height: 90vh;
 }
 
 .banner_text {

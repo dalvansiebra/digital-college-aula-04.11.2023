@@ -1,0 +1,24 @@
+.portfolio {
+    color: #FFFFFF;
+    background-color: #31065A;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    padding: 50px;
+    height: 100vh;
+}
+
+.portfolio_gallery {
+    width: 80%;
+    margin-top: 50px;
+    background-color: red;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.portfolio_gallery *:hover{
+    color: rgba(255, 255, 255, 0.5);
+}
