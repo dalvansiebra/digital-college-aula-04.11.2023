@@ -38,14 +38,16 @@ export default function Contact() {
                             <div>
                                 <input type="email" name="" id="" placeholder="Email Address" />
                             </div>
-                            <div>
-                                <input type="number" name="" id="" placeholder="Phone Number" />
-                                <input type="text" name="" id="" placeholder="Subject" />
+                            <div className="half_size">
+                                <input className="input_half_size" type="number" name="" id="" placeholder="Phone Number" />
+                                <input className="input_half_size" type="text" name="" id="" placeholder="Subject" />
                             </div>
                             <div>
-                                <input type="text" name="" id="" placeholder="Your Message" />
+                                <input className="input_text_area" type="text" name="" id="" placeholder="Your Message" />
                             </div>
-                            <DefaultBtn text="Send" type="submit" />
+                            <div className="input_text_area">
+                                <DefaultBtn text="Send" type="submit" />
+                            </div>
                         </form>
                     </div>
                 </div>

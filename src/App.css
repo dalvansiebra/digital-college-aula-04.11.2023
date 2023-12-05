@@ -11,3 +11,7 @@
     border-bottom: 2px solid #FFF;
     padding-bottom: 10px;
 }
+
+.banner, .about_me, .my_services, .my_skills, .portfolio, .contact {
+    height: 90vh !important;
+}
