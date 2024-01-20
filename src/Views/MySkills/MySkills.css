@@ -22,6 +22,10 @@
     margin-bottom: 20px;
 }
 
+.skills li .name {
+    width: 150px;
+}
+
 .skills li .percent_base {
     width: 500px;
     height: 10px;
@@ -33,4 +37,8 @@
     background-color: #F86F03;
     height: 10px;
     border-radius: inherit;
+}
+
+.skills li .percent-num {
+    width: 150px;
 }

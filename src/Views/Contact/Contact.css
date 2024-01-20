@@ -64,6 +64,7 @@
     padding: 7px 15px;
     border: none;
     font-weight: bolder;
+    transition: all 200ms;
 }
 
 .contact_form div input::placeholder {

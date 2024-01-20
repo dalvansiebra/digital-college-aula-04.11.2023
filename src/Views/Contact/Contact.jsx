@@ -42,7 +42,7 @@ export default function Contact() {
                                 <input className="input_half_size" type="number" name="" id="" placeholder="Phone Number" />
                                 <input className="input_half_size" type="text" name="" id="" placeholder="Subject" />
                             </div>
-                            <div>
+                            <div >
                                 <input className="input_text_area" type="text" name="" id="" placeholder="Your Message" />
                             </div>
                             <div className="input_text_area">
