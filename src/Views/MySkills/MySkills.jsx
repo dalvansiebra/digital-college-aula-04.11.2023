@@ -6,8 +6,8 @@ export default function MySkills() {
     const data = [
         { item: "HTML-5", percent: 50 },
         { item: "CSS-3", percent: 70 },
-        { item: "Boostrap", percent: 0 },
-        { item: "JavaScript", percent: 0 },
+        { item: "Boostrap", percent: 99 },
+        { item: "JavaScript", percent: 25 },
         { item: "Adobe Photoshop", percent: 0 },
         { item: "Adobe Illustrator", percent: 0 }
     ];

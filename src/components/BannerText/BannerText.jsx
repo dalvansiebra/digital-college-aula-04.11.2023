@@ -9,18 +9,17 @@ import { useEffect, useState } from "react"
 
 export default function BannerText() {
 
-    const [bannerInfo, setBannerInfo] = useState([])
+    const [bannerInfo,setBannerInfo] = useState([]);
 
     useEffect(() => {
-
-        fetch('http://localhost:3000/banner', {
+        fetch('http://localhost:3000/banner')
+        .then((response) => {
+            return response.json();
         })
-            .then((response) => response.json())
-            .then((response) => {
-                console.log(bannerInfo)
-                setBannerInfo(bannerInfo)
-            })
-    })
+        .then((data) => {
+            setBannerInfo(data);
+        })
+    },[])
 
     return (
         <>
