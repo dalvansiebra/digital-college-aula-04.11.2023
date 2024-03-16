@@ -6,6 +6,7 @@ import MyServices from "../Views/MyServices/MyServices"
 import MySkills from "../Views/MySkills/MySkills"
 import Portfolio from "../Views/Portfolio/Portfolio"
 import Contact from "../Views/Contact/Contact"
+import Dashboard from "../Views/Dashboard/Dashboard"
 
 const router = createBrowserRouter([
     {
@@ -34,6 +35,10 @@ const router = createBrowserRouter([
             {
                 path: '/contact',
                 element: <Contact />
+            },
+            {
+                path: '/dashboard',
+                element: <Dashboard />
             }
         ]
     }
