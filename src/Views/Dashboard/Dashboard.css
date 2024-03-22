@@ -1,0 +1,60 @@
+.dashboard {
+    background-color: #170550;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    height: 100vh;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form > h1, input, label, button {
+    margin-bottom: 15px;
+}
+
+form > input {
+    width: 200px;
+    background-color: #43366A;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 50px;
+    padding: 7px 15px;
+    border: none;
+    font-weight: bolder;
+    transition: all 200ms;
+}
+form input::placeholder {
+    color: #FFFFFF;
+}
+
+form input:hover {
+    background-color: #F86F03;
+}
+
+form input:focus {
+    background-color: #FFFFFF;
+    color: #461959;
+}
+
+form > button {
+    background-color: #43366A;
+    color: #ffffff;
+    width: 200px;
+    height: 30px;
+    border-radius: 50px;
+    border: none;
+    font-weight: 600;
+}
+
+form > button:hover {
+    background-color: #FFFFFF;
+    color: #461959;
+}
