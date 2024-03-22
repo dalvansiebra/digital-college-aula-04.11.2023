@@ -26,7 +26,7 @@ export default function Dashboard(){
             <input type="text" />
             <label htmlFor="">Porcentagem</label>
             <input type="number" />
-            <button>Enviar</button>
+            <button type="submit">Enviar</button>
         </form>
     </div>
     </>
